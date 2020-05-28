@@ -1,0 +1,25 @@
+{
+    "name": "core/api",
+    "authors": [
+        {
+            "name": "onixdevgmail",
+            "email": "onix.develop@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Core\\Api\\CoreApiServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Api\\": "src/"
+        }
+    }
+}
